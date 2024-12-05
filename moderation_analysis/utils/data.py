@@ -1,3 +1,5 @@
+import json
+
 def extract_text_in_parentheses(s):
     start = s.find('(')
     end = s.find(')', start)
@@ -26,3 +28,14 @@ def merge_short_strings(strings):
         i += 1  # Move to the next string
 
     return result
+
+
+def write_txt(lines:list, filepath:str):
+    with open(filepath, 'w') as f:
+        f.write("\n".join(lines))
+
+
+def load_json_data(path):
+    with open(path) as f:
+        json_objs = json.load(f)
+        return json_objs
