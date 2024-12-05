@@ -5,7 +5,7 @@ import pandas as  pd
 
 
 from moderation_analysis.meta_info import topics, moderators
-from moderation_analysis.data_utils import merge_short_strings, extract_text_in_parentheses
+from moderation_analysis.utils.data import merge_short_strings
 
 
 # Process the segmented and messy transcript strings from the same author to better organized utterances.
