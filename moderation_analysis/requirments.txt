@@ -1,0 +1,10 @@
+pandas
+nltk
+numpy
+openai
+python-dotenv
+bertopic==0.16.4
+spacy
+spacy-transformers
+scikit-learn
+gensim
