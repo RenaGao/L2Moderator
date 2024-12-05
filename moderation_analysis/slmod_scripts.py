@@ -319,6 +319,6 @@ def integrate_result_to_df(whow_annotation=True):
 
 
 if __name__ == '__main__':
-    # preprocess()
+    preprocess()
     # annotate()
     integrate_result_to_df(whow_annotation=False)
