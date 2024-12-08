@@ -1,7 +1,7 @@
 import glob
 import json
 from nltk import sent_tokenize
-import pandas as  pd
+import pandas as pd
 
 
 from moderation_analysis.meta_info import topics, moderators
