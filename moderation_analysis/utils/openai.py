@@ -266,6 +266,7 @@ def demo_batch_upload():
         if status == "completed":
             # download output
             output = download_batch_output(batch_id)
+            incomplete = False
             print(output)
         # These status are normal, just need to wait
         elif status in ["finalizing", "in_progress", "validating"]:
