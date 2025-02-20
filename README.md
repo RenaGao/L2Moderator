@@ -25,4 +25,4 @@ Notebook for data/explore_data.ipynb provides an example of interfacing with the
 - `notebooks/b.ipynb` - Notebook for main experiments in four interactivity level evaluation 
 - `notebooks/c.ipync` - Notebook for overall dialogue evaluation 
 - `folder/d.`         - Notebook for moderation analysis
-- `notebooks/.js`     - Codes for all results
+- `notebooks/e.ipync`     - Codes for all results
